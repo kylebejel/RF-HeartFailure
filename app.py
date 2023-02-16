@@ -12,7 +12,7 @@ ENV = 'dev'
 
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Kb.0169892@localhost/ml_api'
+    app.config['SQLALCHEMY_DATABASE_URI'] = ''
 else:
     app.debug = False
     app.config['SQLALCHEMY_DATABASE_URI'] = ''
